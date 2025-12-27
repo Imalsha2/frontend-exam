@@ -9,6 +9,19 @@
   color: #2c3e50;
   font-size: 32px;
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.profile-container > h1 i {
+  font-size: 36px;
+  color: #3498db;
+  transition: all 0.3s ease;
+}
+
+.profile-container > h1:hover i {
+  transform: scale(1.15) bounce;
 }
 
 .profile-layout {
@@ -46,8 +59,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 56px;
+  font-size: 48px;
   font-weight: bold;
+  margin: 0 auto 20px;
+  box-shadow: 0 8px 16px rgba(52, 152, 219, 0.3);
+  transition: all 0.3s ease;
+}
+
+.avatar-circle:hover {
+  transform: scale(1.08) rotate(-5deg);
+  box-shadow: 0 12px 24px rgba(52, 152, 219, 0.4);
+}
   margin: 0 auto 20px;
   box-shadow: 0 8px 16px rgba(52, 152, 219, 0.3);
   transition: all 0.3s ease;

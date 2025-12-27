@@ -27,6 +27,19 @@
   color: #2c3e50;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.filter-section h3 i {
+  font-size: 16px;
+  color: #3498db;
+  transition: all 0.3s ease;
+}
+
+.filter-section:hover h3 i {
+  transform: scale(1.1);
 }
 
 .filter-option {
